@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Video'ya Hoş Geldiniz(demirhan demir)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> <!--Bootstrap path-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon-196x196._CB527404564_.png" type="image/x-icon">
+</head>
+<body>
+    <!--Navbar starts here-->
+    <nav id ="navbar"class="navbar navbar-expand-lg navbar-dark">
+        <!--Amazon logo added-->
+        <a class="navbar-brand py-2" href="#">
+            <img class="pl-4" id="navbar-logo"src="https://amazonuk.gcs-web.com/system/files-encrypted/nasdaq_kms/inline-images/Prime_Video_Logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end pr-4" id="navbarNavDropdown">
+            <li class="nav-item">
+                <!--A tiny logo for language selector -->
+                <img id="language-select-logo" src="https://icon-library.com/images/white-globe-icon/white-globe-icon-24.jpg" alt="">
+            </li>
+
+        <ul class="navbar-nav"> <!--Navbar elements-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                TR
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">TR</a>
+                <a class="dropdown-item" href="#">EN</a>
+                <a class="dropdown-item" href="#">FR</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+                <a id="login-link" class="nav-link" href="#">Giriş Yap</a>
+            </li> <!--Elements section ends-->
+        </ul>
+        </div>
+    </nav> <!--Navbar ends-->
+    
+        <div id="first-section" class="text-light"> <!--Card 1-->
+            <p id="h1-text"class="h1 offset-7 pb-3 pt-5 pr-5" >Amazon Prime artık Türkiye'de</p>
+            <p id="fs-description" style="font-weight: 300;"class="offset-7 pb-4 pr-5">Ödüllü Amazon Originals yapımları da dahil popüler filmleri ve TV dizilerini izlemek için Amazon Prime'lı olun. Amazon Prime ayrıca binlerce ürün ve daha fazlasında ücretsiz ve hızlı teslimat sunar.</p>
+             <!--Buttons and text inside Card 1-->
+            <div id="buttons-info" class="col-3 offset-7 d-flex flex-column">
+              <button id="button-login" type="button" style="background-color: #146eb4; border-radius: 3px;" class="btn btn text-light mb-2 ">Prime Üyesi misiniz? Giriş yap</button>    
+              <button id="button-trial" type="button" style="background-color: #146eb4; border-radius: 3px;" class="btn text-light mb-5 mt-2">30 günlük ücretsiz deneme <br> süresini başlatın*</button>
+              <p style="font-weight: 300; width: 500px; font-size: smaller;" class="mb-5 pb-5">* 30 gün sonra Amazon Prime aylık 7,90 TRY ücretle otomatik olarak yenilenir.</p>
+            </div>           
+        </div> <!--Card 1 section ends-->
+
+        <div id="second-section" class="column pt-5 pb-5 py-5"> <!--Card 2-->
+          <div class="container-2 pt-5 py-5"> <!--Additional div just to be able to use padding-->
+            <p id="card2-heading" style="color: black;" class="h1 offset-7 pt-5 py-4" >Şimdi izleyin, istediğiniz zaman iptal edin.</p>
+            <p id="card2-text" class="offset-7 pt-3 pb-4">Risksiz kaydolun. Prime Video üyeliğinizi istediğiniz zaman iptal edebilirsiniz.</p>
+            <button type="button" style="background-color: #146eb4; border-radius: 3px;" class="btn text-light offset-7 mb-5">30 Günlük ücretsiz deneme sürenizi başlatın</button>
+          </div>
+        </div> <!--Card 2 ends-->
+
+        <div id="third-section" class="column pt-5 pb-5"> <!--Card 3-->
+          <p id="card3-heading" class="h1 offset-7 text-light pt-5">Büyük Eğlence</p>
+          <p id="card3-text" style="font-weight: 300;"class="offset-7 text-light pt-4">The Grand Tour’u, The Man in the High Castle ve Mozart in the Jungle gibi ödüllü Amazon Orijinal İçeriklerini ve ayrıca tümü indirilebilir popüler film ve TV dizilerini izleyin.</p>
+          <button type="button" style="background-color: #146eb4; border-radius: 3px;" class="btn text-light offset-7 mt-3 mb-5">30 Günlük ücretsiz deneme sürenizi başlatın</button>
+        </div> <!--Card 3 ends here-->
+
+        <div id="fourth-section" class="d-flex flex-row"> <!--Card 4-->
+          <div class="col-4 pl-5 d-flex flex-column align-items-center"> <!--First one-->
+                <img class="mt-5"src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/PV_Benefits_Devices_UPDATED.png" alt="">
+                <p id="card4-heading"style="font-weight:500; font-size: x-large;"class=" h1 mt-3 pb-1">Nerede isterseniz orada izleyin</p>
+                <p id="card4-text" style="font-size: small; font-weight: 300;"class=" pl-1 pb-4">Web'den veya Prime Video uygulamasıyla telefonunuzdan, tabletinizden veya belirli Smart TV'lerden aynı anda üç cihazda keyfini çıkarın.</p>
+          </div>
+          <div class="col-4 pl-5 d-flex flex-column align-items-center"> <!--Second one-->
+                <img class="mt-5 "src="https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PV_Benefits_Download_UPDATED.png" alt="">
+                <p id="card4-heading"style="font-weight:500; font-size: x-large;"class=" h1 mt-3 pb-1">İndirin ve başlayın</p>
+                <p id="card4-text" style="font-size: small; font-weight: 300;"class="pl-1 pb-4">iPhone, iPad, Tablet veya Android cihazınıza içerik indirdikten sonra Prime Video uygulamasında çevrimdışı izleyin.</p>
+          </div>
+          <div class="col-4 pl-4 d-flex flex-column align-items-center"> <!--Third one-->
+                <img class="mt-5"src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/PV_Benefits_DataSaver_UPDATED.png" alt="">
+                <p id="card4-heading"style="font-weight:500; font-size: x-large;"class=" h1 mt-3 pb-1">Veri Tasarrufu</p>
+                <p id="card4-text" style="font-size: small; font-weight: 300;"class="offset-1 pb-4">Belirli telefonlarda veya tabletlerde video indirirken ve izlerken veri kullanımını kontrol edin.</p>
+          </div> 
+        </div> <!--Card 4 ends-->
+
+        <div class="footer"> <!--Footer starts-->
+            <img class="pt-3 d-flex mx-auto pb-2"src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/web_footer_logo._CB462908456_.png" alt=""> <!--Footer Logo-->
+          <div class="links pb-4 offset-3 d-flex flex-row">
+            <a class="pr-2" href="https://www.primevideo.com/help/ref=dvm_MLP_EU_privacy?nodeId=202064890">Koşullar ve Gizlilik Bildirimi</a>
+            <a class="pr-2" href="https://www.primevideo.com/help/ref=atv_hp_nd_cnt?nodeId=GZVH7DTWNBGPRPDS">Çerez Bildirimi</a>
+            <a class="pr-2" href="https://www.primevideo.com/contactus/ref=dvm_MLP_EU_contact">Bize geri bildirim gönder</a>
+            <a href="https://www.primevideo.com/help/ref=dvm_MLP_EU_help">Yardım</a>
+            <p class="pl-3" style="color: grey;">© 1996-2022, Amazon.com, Inc. veya bağlı kuruluşları</p>
+          </div>
+        </div> <!--Footer end-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* path to Amazon's ember font */
+@import url('http://fonts.cdnfonts.com/css/amazon-ember');
+/*navbar logo had to be resized because it has a huge ratio of resolution*/
+img#navbar-logo {
+    width: 140px;
+    height: 35px;
+}
+#navbar {
+    background-color: #232f3e;
+}
+/* language selector logo also had to be resized due to its high resolution */
+img#language-select-logo {
+    max-width: 30px;
+    height: 30px;
+}
+.dropdown-menu {
+    background-color: #232f3e;
+}
+.dropdown-item {
+    color: white;
+}
+#first-section {
+   background-image: linear-gradient(to left, #000 40%, transparent 58%), url("https://m.media-amazon.com/images/G/01//digital/video/Magellan_MLP/MLP_TitleGrid.jpg");
+   background-position:left-top;
+   background-size: 100%;
+   background-repeat: none;
+   font-family: 'Amazon Ember',sans-serif;
+}
+#second-section {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/Cancel_Anytime.jpg");
+    background-position: left-top;
+    background-size: 100%;
+    background-repeat: none;
+    font-family: 'Amazon Ember', sans-serif;
+}
+#third-section {
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/01/digital/video/hannah/AVD-4331_ROW_update.jpg);
+    background-position: left top;
+    background-size: auto;
+    font-family: 'Amazon Ember', sans-serif;
+}
+#fourth-section {
+    background-color: #fff;
+    font-family: 'amazon ember', sans-serif;
+}
+.footer {
+    font-family: 'amazon ember', sans-serif;
+    background-color: #0f171e;
+}
+.links {
+    font-size: 14px;
+}
